@@ -1,0 +1,187 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "departments": "Departments",
+    "events": "Events",
+    "contact": "Contact"
+  },
+ "footer": {
+    "organization": "Korea Kurdistan Youth Organization",
+    "rights": "All rights reserved.",
+    "backToTop": ""
+  },
+  
+  
+    "home": {
+      "hero_title": "Welcome to KKYO",
+      "hero_subtitle": "Empowering the Youth of Kurdistan and Korea through Innovation",
+      "learn_more": "Learn More",
+      
+      "culture_title": "Bridging Kurdistan & Korea",
+      "culture_description": "KKYO celebrates the unique cultures of Kurdistan and Korea through collaboration and education.",
+      "kurdistan_title": "Kurdistan's Heritage",
+      "korea_title": "Korean Traditions",
+      
+      "impact_title": "Our Impact",
+      "members": "Members",
+      "events_held": "Events Held",
+      "departments": "Departments",
+      
+      "latest_events": "Latest Events",
+      
+      "sponsors_title": "Our Partners & Sponsors",
+    "mission_vision_title": "Our Mission & Vision",
+    "mission_title": "Our Mission",
+    "mission_description": "To bridge the gap between Kurdistan and Korea through technology, innovation, and cultural exchange.",
+    "vision_title": "Our Vision",
+    "vision_description": "To create a future where Kurdish and Korean youth collaborate for global progress."
+
+    },
+
+    
+    "about": {
+      "chairwoman_title": "Message from Our Chairwoman",
+      "chairwoman_speech": "At KKYO, we believe in building bridges between Korea and Kurdistan through education, culture, and innovation. Our journey is one of collaboration, learning, and unity. Together, we shape a brighter future.",
+      "chairwoman_name": "Awaz Abdulqadr",
+  
+      "departments_title": "Our Departments",
+      "departments": {
+        "education": {
+          "name": "Education",
+          "description": "Empowering youth through education."
+        },
+        "culture": {
+          "name": "Culture",
+          "description": "Promoting Kurdish & Korean cultural exchange."
+        },
+        "technology": {
+          "name": "Technology",
+          "description": "Innovating with AI & modern tech."
+        },
+        "media": {
+          "name": "Media",
+          "description": "Expanding digital outreach & media presence."
+        },
+        "economy": {
+          "name": "Economy",
+          "description": "Creating economic opportunities & partnerships."
+        }
+      },
+  
+      "team_title": "Meet Our Team",
+      "team_description": "Our dedicated team works tirelessly to bridge Kurdistan and Korea through impactful initiatives.",
+      "team_members": {
+        "Ahmed Shwan": {
+          "name": "Ahmed Shwan",
+          "role": "Head of Technology",
+          "bio": "Leading technological advancements and innovation within KKYO."
+        },
+        "Bala Najat": {
+          "name": "Bala Najat",
+          "role": "Head of Culture",
+          "bio": "Preserving and promoting cultural heritage between Kurdistan and Korea."
+        },
+        "Ashna Jawhar": {
+          "name": "Ashna Jawhar",
+          "role": "Head of Education",
+          "bio": "Developing educational programs and initiatives for the youth."
+        },
+        "Sarezh Sardar": {
+          "name": "Sarezh Sardar",
+          "role": "Head of Media",
+          "bio": "Managing media outreach and digital content strategies."
+        },
+        "Alla Tahr": {
+          "name": "Alla Tahr",
+          "role": "Head of Economy",
+          "bio": "Fostering economic partnerships and development opportunities."
+        }
+      },
+  
+      "testimonials_title": "What People Say About Us",
+      "testimonials_description": "Hear from those who have been impacted by our work.",
+      "testimonials": {
+        "Ali Hassan": {
+          "name": "Ali Hassan",
+          "feedback": "KKYO transformed my perspective! The opportunities here are endless."
+        },
+        "amina omar": {
+          "name": "Amina Omar",
+          "feedback": "The collaboration between Kurdistan & Korea is truly inspiring."
+        }
+      },
+  
+      "contact_title": "Get in Touch",
+      "contact_info": "We'd love to hear from you! Contact us via email or phone.",
+      "contact_subtitle": "Reach out to us for inquiries, collaborations, or support."
+    },
+   
+   
+   
+   "departments": {
+  "page_title": "Our Departments",
+  "page_description": "Our organization is built upon key departments, each playing a significant role in fostering educational growth, cultural exchange, technological innovation, media outreach, and economic development. Explore each department to understand how we contribute to the future of Kurdistan and Korea through meaningful initiatives.",
+
+  "education": {
+    "name": "Education",
+    "description": "Our Education Department is committed to empowering youth by providing access to quality learning opportunities, workshops, and mentorship programs. We aim to equip students and young professionals with the skills and knowledge necessary to succeed in an increasingly globalized world. Through partnerships with academic institutions, scholarships, and training sessions, we create a platform for lifelong learning and career development."
+  },
+
+  "culture": {
+    "name": "Culture",
+    "description": "Cultural exchange is at the heart of our mission. Our Culture Department works tirelessly to promote and preserve the rich traditions of Kurdistan while fostering deeper connections with Korean culture. Through art exhibitions, music, dance performances, literature events, and cultural workshops, we create an inclusive space for people to learn, appreciate, and celebrate diverse heritages."
+  },
+
+  "technology": {
+    "name": "Technology",
+    "description": "Innovation drives progress, and our Technology Department is dedicated to leveraging the latest advancements in artificial intelligence, robotics, and digital solutions. We support young innovators, organize tech conferences, and provide hands-on training in cutting-edge fields such as software development, AI, cybersecurity, and blockchain. Our goal is to prepare the next generation of tech leaders who can contribute to the global digital economy."
+  },
+
+  "media": {
+    "name": "Media",
+    "description": "In today’s digital world, effective communication is crucial. Our Media Department focuses on expanding our digital outreach through content creation, journalism, and social media engagement. We amplify the voices of Kurdish and Korean communities, share inspiring stories, and produce high-quality media content to educate and inform a wider audience about our initiatives and achievements."
+  },
+
+  "economy": {
+    "name": "Economy",
+    "description": "Economic growth is essential for sustainable development, and our Economy Department is committed to creating new opportunities through entrepreneurship, business networking, and investment initiatives. By fostering partnerships between Kurdish and Korean businesses, supporting startups, and organizing economic forums, we aim to build a strong and self-sustaining economic ecosystem that benefits both regions."
+  }
+},
+
+"contact": {
+  "page_title": "Get in Touch with Us",
+  "page_description": "We're here to assist you! Feel free to reach out for any inquiries, collaborations, or support.",
+  
+  "email": "Email",
+  "email_value": "info@kkyo.org",
+  
+  "phone": "Phone",
+  "phone_value": "+964 770 000 0000",
+  
+  "address": "Address",
+  "address_value": "Erbil, Kurdistan Region, Iraq",
+  
+  "form_title": "Send Us a Message",
+  "form_description": "Have questions or suggestions? Fill out the form below and we'll get back to you as soon as possible.",
+  "form_name": "Your Name",
+  "form_email": "Your Email",
+  "form_message": "Your Message",
+  "form_submit": "Send Message",
+  "form_sending": "Sending...",
+  "form_success": "Thank you! Your message has been sent successfully.",
+
+  "follow_us": "Follow Us on Social Media"
+},
+"events": {
+    "page_title": "Our Events & Achievements",
+    "page_description": "Discover the impactful events hosted by KKYO, celebrating cultural exchange, technological advancements, and community development.",
+    "past_events": "Past Events",
+    "subtitle": "Explore the incredible moments we have shared through workshops, cultural nights, and educational initiatives.",
+    "loading": "Loading events... Please wait.",
+    "no_events": "No events have been posted yet. Stay tuned for upcoming announcements!",
+    "learn_more": "Learn More"
+  }
+
+
+}
