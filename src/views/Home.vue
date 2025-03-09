@@ -18,14 +18,14 @@ const impactStats = ref([
 ]);
 
 const sponsors = ref([
-  { name: "Korean Consulate", logo: "/src/assets/sponsors/korean_consulate.jpg" },
-  { name: "Korea Corner", logo: "/src/assets/sponsors/university_a.png" },
+  { name: "Korean Consulate", logo: "@/assets/sponsors/korean_consulate.jpg" },
+  { name: "Korea Corner", logo: "@/assets/sponsors/university_a.png" },
 ]);
 
 const latestEvents = ref([
-  { title: "Korean Cultural Night", date: "March 15, 2025", img: "/src/assets/events/korean_culture.jpg" },
-  { title: "Tech & Innovation Summit", date: "April 10, 2025", img: "/src/assets/events/tech_summit.jpg" },
-  { title: "AI & Robotics Conference", date: "May 5, 2025", img: "/src/assets/events/ai_conference.jpg" },
+  { title: "Korean Cultural Night", date: "March 15, 2025", img: "@/assets/events/korean_culture.jpg" },
+  { title: "Tech & Innovation Summit", date: "April 10, 2025", img: "@/assets/events/tech_summit.jpg" },
+  { title: "AI & Robotics Conference", date: "May 5, 2025", img: "@/assets/events/ai_conference.jpg" },
 ]);
 </script>
 
