@@ -23,11 +23,11 @@ const departments = ref([
 
 // 👥 Our Team Members (Dynamic)
 const teamMembers = ref([
-  { key: "Ahmed Shwan", image: "/src/assets/team/ahmad.png" },
-  { key: "Bala Najat", image: "/src/assets/team/bala.png" },
-  { key: "Ashna Jawhar", image: "/src/assets/team/ashna.png" },
-  { key: "Sarezh Sardar", image: "/src/assets/team/sarezh.png" },
-  { key: "Alla Tahr", image: "/src/assets/team/ala.png" },
+  { key: "Ahmed Shwan", image: "/team/ahmad.png" },
+  { key: "Bala Najat", image: "/team/bala.png" },
+  { key: "Ashna Jawhar", image: "/team/ashna.png" },
+  { key: "Sarezh Sardar", image: "/team/sarezh.png" },
+  { key: "Alla Tahr", image: "/team/ala.png" },
 ]);
 
 
@@ -46,7 +46,7 @@ const testimonials = ref([
   
   <!-- Chairwoman Image -->
   <div class="w-full lg:w-1/3 flex justify-center mb-8 lg:mb-0">
-    <img src="/src/assets/team/chairwoman.jpg" alt="Chairwoman"
+    <img src="/team/chairwoman.jpg" alt="Chairwoman"
       class="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 object-cover rounded-full shadow-lg border-4 border-gray-300 hover:scale-105 transition-transform duration-300">
   </div>
 

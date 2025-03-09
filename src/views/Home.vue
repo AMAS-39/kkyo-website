@@ -11,6 +11,7 @@ onMounted(() => {
   }, 300);
 });
 
+
 const impactStats = ref([
   { number: "150+", key: "members", icon: "👥" },
   { number: "50+", key: "events_held", icon: "📅" },
@@ -18,14 +19,14 @@ const impactStats = ref([
 ]);
 
 const sponsors = ref([
-  { name: "Korean Consulate", logo: "@/assets/sponsors/korean_consulate.jpg" },
-  { name: "Korea Corner", logo: "@/assets/sponsors/university_a.png" },
+  { name: "Korean Consulate", logo: "/sponsors/korean_consulate.jpg" },
+  { name: "Korea Corner", logo: "/sponsors/university_a.png" },
 ]);
 
 const latestEvents = ref([
-  { title: "Korean Cultural Night", date: "March 15, 2025", img: "@/assets/events/korean_culture.jpg" },
-  { title: "Tech & Innovation Summit", date: "April 10, 2025", img: "@/assets/events/tech_summit.jpg" },
-  { title: "AI & Robotics Conference", date: "May 5, 2025", img: "@/assets/events/ai_conference.jpg" },
+  { title: "Korean Cultural Night", date: "March 15, 2025", img: "/events/korean_culture.jpg" },
+  { title: "Tech & Innovation Summit", date: "April 10, 2025", img: "/events/tech_summit.jpg" },
+  { title: "AI & Robotics Conference", date: "May 5, 2025", img: "/events/ai_conference.jpg" },
 ]);
 </script>
 
@@ -34,7 +35,7 @@ const latestEvents = ref([
     <!-- 🌟 Hero Section (Glassmorphism & Overlay) -->
     <section class="hero relative min-h-screen flex items-center justify-center text-center">
       <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover brightness-50">
-        <source src="/src/assets/videos/kkyo-intro.mp4" type="video/mp4" />
+        <source src="/videos/kkyo-intro.mp4" type="video/mp4" />
       </video>
 
       <div class="relative z-10 bg-white bg-opacity-10 backdrop-blur-md p-12 rounded-xl shadow-lg">

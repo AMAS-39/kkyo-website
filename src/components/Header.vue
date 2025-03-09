@@ -59,7 +59,7 @@ const closeMobileMenu = () => {
       
       <!-- Logo -->
       <div class="text-3xl font-bold text-gray-900 tracking-wide flex items-center">
-        <img src="/src/assets/logo.jpg" alt="Logo" class="h-10 mr-2" />
+        <img src="/logo.jpg" alt="Logo" class="h-10 mr-2" />
         KKYO
       </div>
 

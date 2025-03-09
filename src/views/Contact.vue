@@ -86,7 +86,7 @@ const socialMedia = ref([
     
     <!-- Left Side (Image) -->
     <div class="hidden md:block">
-      <img src="/src/assets/contact-image.jpg" alt="Contact Us" class="w-full max-w-md mx-auto">
+      <img src="/contact-image.jpg" alt="Contact Us" class="w-full max-w-md mx-auto">
     </div>
 
     <!-- Right Side (Form) -->
