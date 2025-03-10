@@ -26,9 +26,9 @@ const submitForm = () => {
 
 // Social Media Links
 const socialMedia = ref([
-  { name: "Facebook", icon: "🔵", url: "https://facebook.com" },
-  { name: "Instagram", icon: "📸", url: "https://instagram.com" },
-  { name: "LinkedIn", icon: "💼", url: "https://linkedin.com" },
+  { name: "Facebook", icon: "🔵", url: "https://www.facebook.com/share/166ddqFg6P/?mibextid=wwXIfr" },
+  { name: "Instagram", icon: "📸", url: "https://www.instagram.com/kkyoofficial?igsh=YXBzbGxwOXAxMzYx" },
+  { name: "LinkedIn", icon: "💼", url: "https://www.linkedin.com/company/kkya-oficial/" },
 ]);
 </script>
 

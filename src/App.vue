@@ -1,10 +1,21 @@
 <script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
+
+const { locale } = useI18n();
+
+// Dynamically set font family based on the language
+const fontFamily = computed(() => {
+  return locale.value === "ku"
+    ? "'Noto Sans Arabic', sans-serif"
+    : "'Poppins', sans-serif"; // Change to your default English font
+});
 </script>
 
 <template>
-  <div class="flex flex-col min-h-screen transition-all w-full">
+  <div :style="{ fontFamily }" class="flex flex-col min-h-screen transition-all w-full">
     <!-- Header with Navigation -->
     <Header />
 
@@ -19,6 +30,9 @@ import Footer from './components/Footer.vue'
 </template>
 
 <style>
+/* Load Kurdish font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
 /* Ensure no extra margins, paddings, and force full width */
 html, body, #app {
   margin: 0;

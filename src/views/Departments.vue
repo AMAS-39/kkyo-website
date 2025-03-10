@@ -6,11 +6,11 @@ const { t } = useI18n();
 
 // 🏛️ Departments Data (Dynamic)
 const departments = ref([
-  { key: "education", icon: "🎓", image: "/src/assets/departments/education.jpg" },
-  { key: "culture", icon: "🎭", image: "/src/assets/departments/culture.jpg" },
-  { key: "technology", icon: "💡", image: "/src/assets/departments/technology.jpg" },
-  { key: "media", icon: "📢", image: "/src/assets/departments/media.jpg" },
-  { key: "economy", icon: "📊", image: "/src/assets/departments/economy.jpg" }
+  { key: "education", icon: "🎓", image: "/departments/education.jpg" },
+  { key: "culture", icon: "🎭", image: "/departments/culture.jpg" },
+  { key: "technology", icon: "💡", image: "/departments/technology.jpg" },
+  { key: "media", icon: "📢", image: "/departments/media.jpg" },
+  { key: "economy", icon: "📊", image: "/departments/economy.jpg" }
 ]);
 </script>
 

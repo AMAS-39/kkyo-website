@@ -7,9 +7,9 @@ const currentYear = ref(new Date().getFullYear());
 
 // Social Media Links with Professional Hover Effects
 const socialLinks = [
-  { name: 'Facebook', icon: '/src/assets/icons/facebook.svg', url: 'https://facebook.com' },
-  { name: 'LinkedIn', icon: '/src/assets/icons/linkedin.svg', url: 'https://linkedin.com' },
-  { name: 'Instagram', icon: '/src/assets/icons/instagram.svg', url: 'https://instagram.com' }
+  { name: 'Facebook', icon: '/icons/facebook.svg', url: 'https://www.facebook.com/share/166ddqFg6P/?mibextid=wwXIfr' },
+  { name: 'LinkedIn', icon: '/icons/linkedin.svg', url: 'https://www.linkedin.com/company/kkya-oficial/' },
+  { name: 'Instagram', icon: '/icons/instagram.svg', url: 'https://www.instagram.com/kkyoofficial?igsh=YXBzbGxwOXAxMzYx' }
 ];
 
 // Scroll to Top Functionality

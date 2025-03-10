@@ -64,7 +64,10 @@ const closeMobileMenu = () => {
       </div>
 
       <!-- Desktop Navigation -->
-      <ul class="hidden md:flex space-x-6 text-lg text-gray-900 font-semibold">
+      <ul
+        class="hidden md:flex text-lg text-gray-900 font-semibold"
+        :class="locale === 'ku' ? 'space-x-reverse space-x-6' : 'space-x-6'"
+      >
         <li v-for="item in menuItems" :key="item.path">
           <router-link
             :to="item.path"
@@ -76,8 +79,8 @@ const closeMobileMenu = () => {
         </li>
       </ul>
 
-      <!-- Language Switcher -->
-      <div class="relative">
+      <!-- Language Switcher (Only Visible on Desktop) -->
+      <div class="hidden md:block relative">
         <LanguageSwitcher />
       </div>
 
@@ -102,10 +105,16 @@ const closeMobileMenu = () => {
         >
           {{ item.name }}
         </router-link>
+
+        <!-- Language Switcher (Now Inside Mobile Menu) -->
+        <div class="block md:hidden mt-4">
+          <LanguageSwitcher />
+        </div>
       </div>
     </transition>
   </nav>
 </template>
+
 
 <style scoped>
 /* Mobile menu animation */

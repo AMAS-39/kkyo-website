@@ -99,27 +99,28 @@ const testimonials = ref([
 
     <!-- Team Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 mt-12">
-      <div v-for="member in teamMembers" :key="member.name"
-        class="relative bg-white rounded-lg shadow-lg p-6 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+      <div v-for="member in teamMembers" :key="member.key"
+        class="relative bg-white rounded-xl shadow-lg p-6 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 group">
         
         <!-- Member Image -->
-        <div class="relative">
-          <img :src="member.image" alt="Team Member" 
-            class="w-40 h-40 rounded-full mx-auto border-4 border-gray-300 shadow-md transition-all duration-300 hover:scale-105">
+        <div class="relative w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-blue-500 shadow-lg group-hover:border-yellow-500 transition-all duration-300">
+          <img :src="member.image" alt="Team Member"
+            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
         </div>
 
         <!-- Member Info -->
-        <h3 class="text-2xl font-bold mt-4">{{ t(`about.team_members.${member.key}.name`) }}</h3>
+        <h3 class="text-2xl font-bold mt-6 text-gray-900">{{ t(`about.team_members.${member.key}.name`) }}</h3>
         <p class="text-lg text-gray-500">{{ t(`about.team_members.${member.key}.role`) }}</p>
 
         <!-- Hover Effect (Details on Hover) -->
-        <div class="absolute inset-0 bg-gray-900 bg-opacity-90 text-white flex flex-col justify-center items-center opacity-0 transition-all duration-300 hover:opacity-100 rounded-lg p-4">
-          <p class="text-lg italic">{{ t(`about.team_members.${member.key}.bio`) }}</p>
+        <div class="absolute inset-0 bg-gray-900 bg-opacity-95 text-white flex flex-col justify-center items-center opacity-0 transition-all duration-500 group-hover:opacity-100 rounded-xl p-6">
+          <p class="text-lg italic text-center">{{ t(`about.team_members.${member.key}.bio`) }}</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
  <!-- Decorative Divider -->

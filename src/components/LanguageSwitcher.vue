@@ -6,9 +6,9 @@ const { locale } = useI18n();
 const isDropdownOpen = ref(false);
 
 const languages = [
-  { code: "en", name: "English", flag: "/src/assets/flags/uk.png" },
-  { code: "ku", name: "Kurdish", flag: "/src/assets/flags/Kurdistan.png" },
-  { code: "ko", name: "Korean", flag: "/src/assets/flags/Korea.png" },
+  { code: "en", name: "English", flag: "/flags/uk.png" },
+  { code: "ku", name: "Kurdish", flag: "/flags/Kurdistan.png" },
+  { code: "ko", name: "Korean", flag: "/flags/Korea.png" },
 ];
 
 // Function to change language

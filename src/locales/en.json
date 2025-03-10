@@ -13,36 +13,39 @@
   },
   
   
-    "home": {
-      "hero_title": "Welcome to KKYO",
-      "hero_subtitle": "Empowering the Youth of Kurdistan and Korea through Innovation",
-      "learn_more": "Learn More",
-      
-      "culture_title": "Bridging Kurdistan & Korea",
-      "culture_description": "KKYO celebrates the unique cultures of Kurdistan and Korea through collaboration and education.",
-      "kurdistan_title": "Kurdistan's Heritage",
-      "korea_title": "Korean Traditions",
-      
-      "impact_title": "Our Impact",
-      "members": "Members",
-      "events_held": "Events Held",
-      "departments": "Departments",
-      
-      "latest_events": "Latest Events",
-      
-      "sponsors_title": "Our Partners & Sponsors",
+   "home": {
+    "hero_title": "Welcome to KKYO",
+    "hero_subtitle": "Empowering the Youth of Kurdistan and Korea through Innovation",
+    "learn_more": "Learn More",
+
+    "culture_title": "Bridging Kurdistan & Korea",
+    "culture_description": "KKYO celebrates the unique cultures of Kurdistan and Korea through collaboration and education.",
+    "kurdistan_title": "Kurdistan's Heritage",
+    "korea_title": "Korean Traditions",
+
+    "impact": "Our Impact",
+    "impact_title": "Our Impact",
+    "impact_description": "KKYO has achieved remarkable milestones in youth empowerment and cultural collaboration.",
+    "members": "Members",
+    "events_held": "Events Held",
+    "departments": "Departments",
+
+    "latest_events": "Latest Events",
+    "latest_events_description": "Explore the most recent activities and events organized by KKYO.",
+
+    "sponsors_title": "Our Partners & Sponsors",
+
     "mission_vision_title": "Our Mission & Vision",
     "mission_title": "Our Mission",
     "mission_description": "To bridge the gap between Kurdistan and Korea through technology, innovation, and cultural exchange.",
     "vision_title": "Our Vision",
     "vision_description": "To create a future where Kurdish and Korean youth collaborate for global progress."
-
-    },
+  },
 
     
     "about": {
       "chairwoman_title": "Message from Our Chairwoman",
-      "chairwoman_speech": "At KKYO, we believe in building bridges between Korea and Kurdistan through education, culture, and innovation. Our journey is one of collaboration, learning, and unity. Together, we shape a brighter future.",
+      "chairwoman_speech": "Dear members and friends of KKYO,It is my great honor to serve as the Chairwoman of the Korea Kurdistan Youth Organization (KKYO), a dynamic platform dedicated to empowering youth and fostering a deeper connection between Korea and Kurdistan.Our organization actively works in the fields of culture, education and training, economy, media and communication, technology, and innovation. Through these areas, we strive to enhance the skills of young people and provide opportunities for talented youth to contribute by supporting and guiding others. We believe that by empowering one another, we can create a stronger, more capable generation that leads with knowledge and creativity.At KKYO, our mission goes beyond cultural exchange. While celebrating and sharing the rich traditions of both Korea and Kurdistan, we are also committed to building meaningful ties in various fields, creating opportunities for collaboration in education, human development, technology, and beyond. We envision a future where youth from both regions can connect, learn, and grow together, strengthening not only cultural bonds but also partnerships that lead to shared progress and innovation.I invite every young person who is passionate about Korea-Kurdistan relations to join us in this journey. Whether as a member, volunteer, supporter or sponsor, your contributions will help shape a brighter future where we bridge cultures, exchange ideas, and create lasting impact.Thank you for your dedication and support. Together, let’s build a strong and inspiring community for the youth of today and the leaders of tomorrow.",
       "chairwoman_name": "Awaz Abdulqadr",
   
       "departments_title": "Our Departments",
@@ -176,11 +179,20 @@
 "events": {
     "page_title": "Our Events & Achievements",
     "page_description": "Discover the impactful events hosted by KKYO, celebrating cultural exchange, technological advancements, and community development.",
+    
+    "events_title": "Upcoming & Past Events",
+    "events_description": "Stay updated with the latest and past events organized by KKYO.",
+    
     "past_events": "Past Events",
     "subtitle": "Explore the incredible moments we have shared through workshops, cultural nights, and educational initiatives.",
+    
     "loading": "Loading events... Please wait.",
     "no_events": "No events have been posted yet. Stay tuned for upcoming announcements!",
-    "learn_more": "Learn More"
+    "no_upcoming_events": "There are currently no upcoming events. Check back soon!",
+    
+    "learn_more": "Learn More",
+    "event_details": "Event Details",
+    "close": "Close"
   }
 
 
