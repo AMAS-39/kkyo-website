@@ -68,7 +68,7 @@ const sponsors = ref([
     <!-- 🎯 Mission & Vision Section -->
     <section class="mission py-24 bg-gray-100 text-center">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-extrabold text-gray-900">{{ t("home.mission_vision_title") }}</h2>
+        <h2 class="text-4xl font-extrabold text-gray-900">{{ t("home.mission_vision_title") }}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
           <div class="p-8 bg-white shadow-xl rounded-lg border-t-4 border-yellow-500">
             <h3 class="text-3xl font-semibold text-red-600">{{ t("home.mission_title") }}</h3>
@@ -120,7 +120,7 @@ const sponsors = ref([
     <!-- 📰 Latest Events Section -->
     <section class="events py-24 bg-white text-center">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-extrabold text-gray-900">{{ t("home.latest_events") }}</h2>
+        <h2 class="text-4xl font-extrabold text-gray-900">{{ t("home.latest_events") }}</h2>
 
         <!-- Loader while fetching data -->
         <div v-if="loading" class="text-center mt-8">
@@ -155,7 +155,7 @@ const sponsors = ref([
     <!-- 🤝 Sponsors -->
     <section class="sponsors py-24 bg-gray-100 text-center">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-extrabold text-gray-900">{{ t("home.sponsors_title") }}</h2>
+        <h3 class="text-4xl font-extrabold text-gray-900">{{ t("home.sponsors_title") }}</h3>
         <div class="flex justify-center gap-8 mt-8">
           <img v-for="sponsor in sponsors" :key="sponsor.name" :src="sponsor.logo" :alt="sponsor.name"
                class="h-32 object-contain grayscale hover:grayscale-0 transition duration-300">

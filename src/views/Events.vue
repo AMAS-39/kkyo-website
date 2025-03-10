@@ -39,7 +39,7 @@ const closeModal = () => {
     <section class=" bg-gray-100 relative flex items-center justify-center text-black py-32 mt-5 text-center">
       <div class="absolute inset-0 bg-cover bg-center brightness-50" style="background-image: url('/src/assets/events/hero.jpg');"></div>
       <div class="relative z-10 bg-white bg-opacity-10 backdrop-blur-md p-12 rounded-xl shadow-lg">
-        <h1 class="text-6xl text-black font-extrabold">{{ t("events.page_title") }}</h1>
+        <h1 class="text-4xl text-black font-extrabold">{{ t("events.page_title") }}</h1>
         <p class=" text-black mt-4 text-lg  max-w-3xl mx-auto">{{ t("events.page_description") }}</p>
       </div>
     </section>
@@ -52,7 +52,7 @@ const closeModal = () => {
     <!-- 📅 Events Listing -->
     <section class="py-24">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-extrabold text-gray-900 text-center">{{ t("events.past_events") }}</h2>
+        <h2 class="text-4xl font-extrabold text-gray-900 text-center">{{ t("events.past_events") }}</h2>
         <p class="mt-4 text-lg text-gray-600 text-center max-w-2xl mx-auto">{{ t("events.subtitle") }}</p>
 
         <!-- Loader -->
@@ -103,10 +103,7 @@ const closeModal = () => {
     <!-- 🌟 Modal Component -->
     <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
       <div class="bg-white w-full max-w-3xl p-6 rounded-lg shadow-lg relative">
-        <!-- Close Button -->
-        <button @click="closeModal" class="absolute top-3 right-3 text-gray-600 hover:text-gray-800">
-          ✖
-        </button>
+       
 
         <!-- Event Details -->
         <h2 class="text-3xl font-bold text-blue-600">{{ selectedEvent.title[locale] }}</h2>

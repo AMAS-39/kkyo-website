@@ -36,7 +36,7 @@ const socialMedia = ref([
   <div class="w-full">
     <!-- 📞 Hero Section -->
     <section class="relative flex flex-col items-center bg-gray-100 text-gray-900 py-20 px-6 mt-5 text-center">
-      <h1 class="text-5xl font-extrabold">{{ t("contact.page_title") }}</h1>
+      <h1 class="text-4xl font-extrabold">{{ t("contact.page_title") }}</h1>
       <p class="mt-4 text-lg text-gray-600 max-w-2xl">{{ t("contact.page_description") }}</p>
     </section>
 
@@ -120,19 +120,23 @@ const socialMedia = ref([
       <span class="text-gray-500 text-lg">── ✦ ──</span>
     </div>
 <!-- 🌐 Social Media Section (Animated Buttons) -->
+<!-- 🌐 Social Media Section (Animated Buttons) -->
 <section class="py-12 bg-white text-center">
   <div class="container mx-auto px-6">
-    <h2 class="text-3xl font-extrabold text-gray-900">{{ t("contact.follow_us") }}</h2>
+    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+      {{ t("contact.follow_us") }}
+    </h2>
     
-    <div class="mt-6 flex justify-center space-x-6">
+    <div class="mt-6 flex flex-wrap justify-center gap-4 sm:gap-6">
       <a v-for="social in socialMedia" :key="social.name" :href="social.url" target="_blank"
-        class="flex items-center space-x-2 bg-gray-100 px-5 py-3 rounded-full font-semibold transition-all duration-300 hover:bg-gray-200 shadow-sm">
-        <span class="text-xl">{{ social.icon }}</span>
-        <span>{{ social.name }}</span>
+        class="flex items-center space-x-2 bg-gray-100 px-4 sm:px-5 py-2 sm:py-3 rounded-full font-semibold transition-all duration-300 hover:bg-gray-200 shadow-sm">
+        <span class="text-lg sm:text-xl">{{ social.icon }}</span>
+        <span class="text-sm sm:text-base">{{ social.name }}</span>
       </a>
     </div>
   </div>
 </section>
+
 
   </div>
 </template>

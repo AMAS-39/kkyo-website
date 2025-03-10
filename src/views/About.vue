@@ -55,9 +55,11 @@ const testimonials = ref([
     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900">{{ t("about.chairwoman_title") }}</h2>
     
     <div class="mt-6 bg-gradient-to-r from-gray-100 to-white text-gray-900 p-6 sm:p-8 rounded-xl shadow-md border border-gray-300 max-w-full lg:max-w-3xl mx-auto lg:mx-0">
-      <p class="text-lg sm:text-xl font-medium leading-relaxed italic">
-        "{{ t('about.chairwoman_speech') }}"
-      </p>
+      <p class="text-lg sm:text-xl font-medium leading-normal sm:leading-relaxed italic lg:text-justify">
+  "{{ t('about.chairwoman_speech') }}"
+</p>
+
+
       <p class="mt-4 font-bold text-lg sm:text-xl text-blue-600 text-right">- {{ t('about.chairwoman_name') }}</p>
     </div>
   </div>
@@ -94,7 +96,7 @@ const testimonials = ref([
 <!-- 👥 Our Professional Team -->
 <section class="py-24 bg-gray-100 text-center">
   <div class="container mx-auto px-6">
-    <h2 class="text-5xl font-extrabold text-gray-900">{{ t("about.team_title") }}</h2>
+    <h2 class="text-4xl font-extrabold text-gray-900">{{ t("about.team_title") }}</h2>
     <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">{{ t("about.team_description") }}</p>
 
     <!-- Team Grid -->
@@ -131,16 +133,18 @@ const testimonials = ref([
 <!-- 🏆 Elegant Testimonials Section -->
 <section class="py-24 bg-gray-100 text-gray-900 text-center">
   <div class="container mx-auto px-6">
-    <h2 class="text-5xl font-extrabold text-gray-900">{{ t("about.testimonials_title") }}</h2>
-    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">{{ t("about.testimonials_description") }}</p>
+    <h2 class="text-4xl font-extrabold text-gray-900 leading-normal  sm:leading-relaxed">
+  {{ t("about.testimonials_title") }}
+</h2>
+    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto ">{{ t("about.testimonials_description") }}</p>
 
     <!-- Testimonials Cards -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
       <div v-for="testimonial in testimonials" :key="testimonial.name" 
         class="relative p-8 bg-white text-gray-900 shadow-xl rounded-xl border border-gray-300 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
         
-        <h3 class="mt-4 font-bold text-lg text-blue-700">{{ t(`about.testimonials.${testimonial.key}.name`) }}</h3>
-        <p class="text-xl italic font-medium">"{{ t(`about.testimonials.${testimonial.key}.feedback`) }}"</p>
+        <h5 class="mt-4 font-bold text-lg text-blue-700">{{ t(`about.testimonials.${testimonial.key}.name`) }}</h5>
+        <p class="text-xl italic font-medium leading-normal  sm:leading-relaxed">"{{ t(`about.testimonials.${testimonial.key}.feedback`) }}"</p>
 
         <!-- Decorative Quote Symbol -->
         <span class="absolute top-[-10px] left-6 text-6xl text-gray-300 font-serif opacity-50">“</span>
