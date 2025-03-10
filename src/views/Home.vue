@@ -176,22 +176,7 @@ const sponsors = ref([
   font-family: "Noto Serif", serif;
   animation: fadeInUp 1s ease-in-out;
 }
-.hero video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-}
 
-@media (max-width: 768px) {
-  .hero video {
-    height: auto; /* Ensures proper scaling */
-    min-height: 100vh;
-  }
-}
 
 
 @keyframes fadeInUp {
