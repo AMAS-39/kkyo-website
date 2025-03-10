@@ -44,9 +44,13 @@ const sponsors = ref([
   <div class="w-full">
     <!-- 🌟 Hero Section -->
     <section class="hero relative min-h-screen flex items-center justify-center text-center">
-      <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover brightness-50">
-        <source src="/videos/kkyo-intro.mp4" type="video/mp4" />
-      </video>
+      <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover brightness-50 hidden sm:block">
+  <source src="/videos/kkyo-intro.mp4" type="video/mp4" />
+</video>
+
+<!-- Show an image instead of a video on mobile screens -->
+<img src="/images/kkyo-hero.jpg" alt="KKYO Background" class="absolute inset-0 w-full h-full object-cover brightness-50 sm:hidden">
+
 
       <div class="relative z-10 bg-white bg-opacity-10 backdrop-blur-md p-12 rounded-xl shadow-lg">
         <h1 class="text-6xl font-extrabold text-white drop-shadow-lg">{{ t("home.hero_title") }}</h1>
@@ -172,6 +176,23 @@ const sponsors = ref([
   font-family: "Noto Serif", serif;
   animation: fadeInUp 1s ease-in-out;
 }
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .hero video {
+    height: auto; /* Ensures proper scaling */
+    min-height: 100vh;
+  }
+}
+
 
 @keyframes fadeInUp {
   from {
