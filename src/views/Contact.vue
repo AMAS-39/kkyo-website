@@ -51,7 +51,7 @@ const socialMedia = ref([
           <p class="text-4xl">📧</p>
           <h3 class="text-2xl font-bold mt-4">{{ t("contact.email") }}</h3>
           <p class="mt-2 text-lg text-gray-600">
-            <a href="mailto:info@kkyo.org" class="hover:text-blue-500 transition">{{ t("contact.email_value") }}</a>
+            <a href="#" class="hover:text-blue-500 transition">{{ t("contact.email_value") }}</a>
           </p>
         </div>
 
