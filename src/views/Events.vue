@@ -12,13 +12,17 @@ const showModal = ref(false);
 onMounted(async () => {
   try {
     const response = await axios.get("https://kkyo-flask-admin.onrender.com/events");
-    events.value = response.data;
+    let fetchedEvents = response.data;
+
+    // Sort events by date (newest first)
+    events.value = fetchedEvents.sort((a, b) => new Date(b.date) - new Date(a.date));
   } catch (error) {
     console.error("❌ Error fetching events:", error);
   } finally {
     loading.value = false;
   }
 });
+
 
 // Open Modal and Set Event Details
 const openModal = (event) => {
