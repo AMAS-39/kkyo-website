@@ -46,7 +46,7 @@ export default {
           volunteers: [
             { name: "Mohammed Hussein Mahmood", points: 145 },
             { name: "Ashna Kamal Rashid", points: 120 },
-            { name: "Hero Ali Omer", points: 110}
+            { name: "Avan Mohammed Ibrahim", points: 110}
           ]
         },
         {
