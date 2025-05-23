@@ -33,6 +33,7 @@ const menuItems = ref([
   { name: t("header.departments"), path: "/departments" },
   { name: t("header.events"), path: "/events" },
   { name: t("header.contact"), path: "/contact" },
+  { name: t("header.topVolunteers"), path: "/top-volunteers" },
 ]);
 
 // Update menu items when language changes
